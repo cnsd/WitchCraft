@@ -8,12 +8,6 @@ from colors import *
 PREFIX = 'WitchCraft'
 VERSION = '0.0.1'
 
-#GLOBAL VARIABLES
-
-USERAGENT = 'Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0'
-HOST = 'www.fxp.co.il'
-COOKIES = 'pagenumber=1546; bb_userid=3337730; bb_password=a71c0023822ea108ae751b0c5b44a661;'
-
 PROMPT = PREFIX + ' >> '
 
 ENTER_SCREEN = Fore.GREEN + """
@@ -29,26 +23,6 @@ Type `help` to see the help message.
 """
 
 #CLASSES
-
-'''
-ScrapeTypes Enum
-'''
-class ScrapeType(Enum):
-	forum = 1
-	thread = 2
-
-
-'''
-ScrapeTargets Enum
-'''
-class ScrapeTarget(Enum):
-	titles = 1
-	common_opener = 3
-
-	comments = 2
-	common_replier = 4
-
-
 '''
 Botprint Message Types Enum
 '''
