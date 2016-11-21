@@ -22,7 +22,7 @@ ENTER_SCREEN = Fore.GREEN + """
 \ \/  \/ / | __/ __| '_ \ / / | '__/ _` | |_| __|
  \  /\  /| | || (__| | | / /__| | | (_| |  _| |_ 
   \/  \/ |_|\__\___|_| |_\____/_|  \__,_|_|  \__|
---Coded By The Community 2016--
+--Coded By cnsd. 2016--
 """ + Fore.RESET + """
 Welcome to """ + PREFIX + """!
 Type `help` to see the help message.
