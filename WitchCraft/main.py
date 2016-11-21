@@ -1,6 +1,4 @@
 #main.py
-import requests
-
 import config.config as config
 import config.colors as colors
 import command.command_handler as command_handler
