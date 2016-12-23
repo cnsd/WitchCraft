@@ -13,7 +13,7 @@ from configs.colors import *
 from configs.functions import botprint
 
 from os import system
-system("title "+config.PREFIX+" Version "+config.VERSION)
+system("title %s Version %s" % (config.PREFIX, config.VERSION))
 system("cls")
 
 '''
